@@ -121,7 +121,7 @@ export default function Home() {
           </SectionShell>
         </section>
 
-        <section className="pt-30 pb-23 bg-[url('/images/home1.png')] bg-cover bg-center  bg-no-repeat">
+        <section className="pt-30 pb-23 bg-[url('/images/home10.png')] bg-cover bg-center  bg-no-repeat">
           <SectionShell>
             <div className="grid gap-x-13.75 gap-y-10 xl:grid-cols-2">
               <div className="relative">
