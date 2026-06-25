@@ -138,11 +138,6 @@ export default function Home() {
                   We work with businesses to build stronger digital
                   infrastructure, improve operational efficiency, and support
                   sustainable growth through reliable execution.
-                  <img
-                    className="hidden  xl:block  absolute -bottom-40 -z-10 left-0 lg:max-w-145.25 w-full"
-                    src="/images/home2.png"
-                    alt=""
-                  />
                 </div>
               </div>
               <div>
