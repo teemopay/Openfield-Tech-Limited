@@ -151,8 +151,8 @@ export function AnimatedPage({ children }: { children: React.ReactNode }) {
           end: "bottom top",
           onEnter: playTitle,
           onEnterBack: playTitle,
-          onLeave: resetTitle,
-          onLeaveBack: resetTitle,
+          onLeave: () => resetTitle(),
+          onLeaveBack: () => resetTitle(),
         });
       });
 
