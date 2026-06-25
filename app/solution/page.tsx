@@ -3,6 +3,7 @@ import { Footer } from "../components/Footer";
 import { Nav } from "../components/Nav";
 import { SectionShell } from "../components/SectionShell";
 import { AnalyticSvg } from "../components/Visuals";
+import Image from "next/image";
 
 const listOne = [
   {
@@ -102,11 +103,18 @@ export default function SolutionPage() {
 
         <section className="relative pt-27.25 pb-38.75 bg-[url('/images/solution2.png')] bg-cover bg-center bg-no-repeat">
           <SectionShell>
-            <div className="bg-[url('/images/solution3.png')] bg-cover bg-right lg:bg-left bg-no-repeat flex justify-end">
-              <div className="max-w-180">
-                <h2 className="module-title text-[30px] leading-11 md:text-[72px] md:leading-21.5 font-semibold  tracking-[-1.5px]">
+            <div className="flex flex-col-reverse lg:flex-row   items-center">
+              <Image
+                className="max-w-100.5 max-h-161 mx-auto lg:mx-0 "
+                src="/images/solution6.png"
+                width={402}
+                height={644}
+                alt="Picture of the author"
+              />
+              <div className="flex-1  lg:pl-10 lg:mb-0  mb-20">
+                <div className="module-title text-[30px] leading-11 md:text-[72px] md:leading-21.5 font-semibold  tracking-[-1px]">
                   Custom Technology Solution
-                </h2>
+                </div>
                 <div className="module-subtitle mt-8 text-[22px] leading-8 text-[#E3E6F4] font-normal tracking-[-0.2px]">
                   We build customized systems designed around business
                   operations, helping companies simplify internal workflows and
